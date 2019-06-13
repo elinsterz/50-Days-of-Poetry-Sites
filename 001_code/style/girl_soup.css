@@ -1,0 +1,58 @@
+@font-face {
+    font-family:'PublicoTextMono-Roman-Web';
+    src: url('fonts/PublicoTextMono-Roman-Web.eot');
+    src: url('fonts/PublicoTextMono-Roman-Web.ttf');
+    format('truetype');
+}
+
+@font-face {
+    font-family:'BureauGrotesqueSevenNine';
+    src: url('fonts/BureauGrotesqueSevenNine.eot');
+    src: url('fonts/BureauGrotesqueSevenNine.ttf');
+    format('truetype');
+}
+
+body, html{
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#author{
+    font-family:'BureauGrotesqueSevenNine', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 0.9em;
+    letter-spacing: 0.5pt;
+    color: black;
+}
+
+
+p{
+    font-family: 'PublicoTextMono-Roman-Web','Times New Roman', Times, serif;
+    font-size: 0.95em;
+    line-height: 1.75em;
+}
+
+
+.container{
+    /**border: 1px solid black;**/
+    height:100vh;
+}
+
+
+.col-md-4 {
+    padding-top: 1em;
+    /**border: 1px solid black;**/
+   
+}
+
+#left-column{
+    padding-right: 1em;
+    border-right: 1px solid black;
+}
+
+#middle-column{
+    padding-right: 1em;
+    border-right: 1px solid black;
+}
