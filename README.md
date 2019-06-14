@@ -1,7 +1,7 @@
 # 100 Days of Poetry Sites
 Summer 2019
 
-Day 1: HTML + CSS
+Day 1: HTML + CSS <br>
 Day 2: JS
 
 ----
