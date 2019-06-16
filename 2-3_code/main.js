@@ -28,7 +28,7 @@ function windowResized(){
 }
 
 function draw() {
-  background(200,200,200,50);
+  background(200,200,200);
   flock.run();
 
  //interactive option: to draw a line! 
@@ -42,6 +42,10 @@ function draw() {
 // Add a new boid into the System
 function mouseDragged() {
   flock.addBoid(new Boid(mouseX, mouseY));
+}
+
+function keyPressed(){
+    clear();
 }
 
 
@@ -130,7 +134,7 @@ Boid.prototype.seek = function(target) {
 Boid.prototype.render = function() {
   // Draw a triangle rotated in the direction of velocity
   let theta = this.velocity.heading() + radians(90);
-  fill(255,255,255);
+  fill(0);
   noStroke();
   push();
   translate(this.position.x, this.position.y);
