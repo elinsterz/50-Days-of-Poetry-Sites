@@ -1,0 +1,77 @@
+canvas {
+    display: inline;
+}
+  
+
+@font-face {
+    font-family:'monument-grotesk-regular';
+    src: url('fonts/monument-grotesk-regular.eot');
+    src: url('fonts/monument-grotesk-regular.ttf');
+    format('truetype');
+}
+
+@font-face {
+    font-family:'columbiasans-regular';
+    src: url('fonts/columbiasans-regular.eot');
+    src: url('fonts/columbiasans-regular.ttf');
+    format('truetype');
+}
+
+body{
+    padding: 2% ;
+}
+
+p{
+    font-family: 'columbiasans-regular', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.25em;
+    color: black;
+    text-align: left;s
+    vertical-align: middle;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+}
+
+.col-lg-12 {
+    margin: 1%;
+    background-color: yellow;
+    border:  black dotted 2px;
+    border-radius: 45px;
+}
+
+.col-lg-8 {
+    margin: 1%;
+    background-color: mintcream;
+    border: black dotted 2px;
+    border-radius: 45px;
+}
+
+.col-lg-6 {
+    margin: 1%;
+    background-color: plum;
+    border: black dotted 2px;
+    border-radius: 45px;
+}
+
+.col-lg-4 {
+    margin: 1%;
+    background-color: seashell;
+    border:  black dotted 2px;
+    border-radius: 45px;
+}
+
+.col-lg-3 {
+    margin: 1%;
+    background-color: cornflowerblue;
+    border: black dotted 2px;
+    border-radius: 45px;
+}
+
+.col-lg-2 {
+    margin: 1%;
+    background-color: aliceblue;
+    border: black dotted 2px;
+    border-radius: 45px;
+}
