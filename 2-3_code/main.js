@@ -134,7 +134,7 @@ Boid.prototype.seek = function(target) {
 Boid.prototype.render = function() {
   // Draw a triangle rotated in the direction of velocity
   let theta = this.velocity.heading() + radians(90);
-  fill(0);
+  fill(0,0,0);
   noStroke();
   push();
   translate(this.position.x, this.position.y);
