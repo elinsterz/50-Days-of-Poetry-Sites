@@ -1,0 +1,72 @@
+@font-face {
+    font-family:'CheltenhamStd-Light';
+    src: url('fonts/CheltenhamStd-Light.eot');
+    src: url('fonts/CheltenhamStd-Light.ttf');
+    format('truetype');
+}
+
+@font-face {
+    font-family:'CheltenhamStd-LightItalic';
+    src: url('fonts/CheltenhamStd-LightItalic.eot');
+    src: url('fonts/CheltenhamStd-LightItalic.ttf');
+    format('truetype');
+}
+
+.container{
+    margin: 5%;
+}
+
+#title {
+    padding-top: 3%;
+    font-size: 1em;
+    /* text-decoration: underline; */
+    padding-bottom: 15%; 
+}
+
+#byline{
+    padding-top: 3%;
+    font-size: 1em;
+}
+
+#author {
+    font-style: italic;
+    font-size: 1em;   
+}
+
+
+p{
+    font-family: 'CheltenhamStd-Light','Times New Roman', serif;
+    font-size: 1.75em;
+    color: black;
+    line-height: 1.6em;
+    letter-spacing: 0.15pt;
+}
+
+div{
+    /*border: black solid 1px; */
+}
+
+article {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    background: #fff;
+    padding-top: 20px;
+  }
+  
+  article:after {
+    position: absolute;
+    bottom: 0;  
+    height: 40%;
+    width: 100%;
+    content: "";
+    background: linear-gradient(to top,
+       rgba(210,210, 210, 1) 20%, 
+       rgba(255,255,255, 0) 80%
+    );
+    pointer-events: none; /* so the text is still selectable */
+  }
+
+  /* article:hover:after {
+    background: transparent;
+  } */
