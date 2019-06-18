@@ -1,3 +1,8 @@
+canvas {
+    display: inline;
+}
+  
+
 @font-face {
     font-family:'CheltenhamStd-Light';
     src: url('fonts/CheltenhamStd-Light.eot');
@@ -50,7 +55,7 @@ article {
     display: block;
     overflow: hidden;
     position: relative;
-    background: #fff;
+    /* background: #fff; */
     padding-top: 20px;
   }
   
