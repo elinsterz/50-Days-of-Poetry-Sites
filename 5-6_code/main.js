@@ -6,7 +6,6 @@ function setup(){
     canvas.position(0,0);
     canvas.style('z-index', '-1');
     canvas.parent('sketch-holder');
-    createCanvas(windowWidth, windowHeight);
 }
 
 function windowResized(){
@@ -15,6 +14,8 @@ function windowResized(){
 
 
 function draw(){
+    fill(255,255,0);
+    ellipse(20,20,500,500);
     
     stroke(0);
     if(mouseIsPressed === true){
