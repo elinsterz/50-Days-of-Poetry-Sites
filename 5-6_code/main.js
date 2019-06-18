@@ -2,25 +2,26 @@
 
 
 function setup(){
-    var canvas = createCanvas(windowWidth, windowHeight);
+    let canvas = createCanvas(windowWidth, windowHeight);
     canvas.position(0,0);
     canvas.style('z-index', '-1');
-    canvas.parent('sketch-holder');
+    //createCanvas(windowWidth, windowHeight);
 }
 
-function windowResized(){
-    resizeCanvas(windowWidth, windowHeight);
-}
+// function windowResized(){
+//     resizeCanvas(windowWidth, windowHeight);
+// }
 
 
 function draw(){
-    fill(255,255,0);
-    ellipse(20,20,500,500);
-    
     stroke(0);
+    strokeWeight(0.5);
     if(mouseIsPressed === true){
         line (pmouseX, pmouseY, mouseX, mouseY);
     }
-    
-
 }
+
+function keyPressed(){
+    clear();
+}
+

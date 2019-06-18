@@ -17,6 +17,13 @@ canvas {
     format('truetype');
 }
 
+@font-face {
+    font-family:'BureauGrotesqueSevenNine';
+    src: url('fonts/BureauGrotesqueSevenNine.eot');
+    src: url('fonts/BureauGrotesqueSevenNine.ttf');
+    format('truetype');
+}
+
 .container{
     margin: 5%;
 }
@@ -39,6 +46,14 @@ canvas {
 }
 
 
+#instructions {
+    font-family: 'BureauGrotesqueSevenNine','Times New Roman', serif;
+    font-size: 1.2em;   
+    color: black;
+    line-height: 1.6em;
+    letter-spacing: 0.15pt;
+}
+
 p{
     font-family: 'CheltenhamStd-Light','Times New Roman', serif;
     font-size: 1.75em;
@@ -47,22 +62,25 @@ p{
     letter-spacing: 0.15pt;
 }
 
-div{
-    /*border: black solid 1px; */
-}
+/* div{
+    border: black solid 1px; 
+} */
 
-/* article {
+
+article {
     display: block;
     overflow: hidden;
     position: relative;
     /* background: #fff; */
     padding-top: 20px;
   }
+
   
-  /* article:after {
+
+  article:after {
     position: fixed;
     bottom: 0;  
-    height: 40%;
+    height: 30%;
     width: 100%;
     content: "";
     background: linear-gradient(to top,
@@ -70,8 +88,15 @@ div{
        rgba(255,255,255, 0) 80%
     );
     pointer-events: none; /* so the text is still selectable */
-  }   */
+  } 
 
   /* article:hover:after {
     background: transparent;
   } */
+
+  .vertical-text {
+	transform: rotate(45deg);
+    transform-origin: right top 0;
+    float:left;
+}
+
