@@ -1,0 +1,19 @@
+@font-face {
+    font-family:'PlantinHeadlineMTStd-LigCn';
+    src: url('fonts/PlantinHeadlineMTStd-LigCn.eot');
+    src: url('fonts/PlantinHeadlineMTStd-LigCn.ttf');
+    format('truetype');
+}
+
+@font-face {
+    font-family:'FoundersGrotesk-Semibold';
+    src: url('fonts/FoundersGrotesk-Semibold.eot');
+    src: url('fonts/FoundersGrotesk-Semibold.ttf');
+    format('truetype');
+}
+
+
+p {
+    font-family: 'PlantinHeadlineMTStd-LigCn','Times New Roman', Times, serif;
+    font-size: 1em;
+}
