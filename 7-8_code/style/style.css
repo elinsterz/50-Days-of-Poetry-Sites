@@ -12,6 +12,10 @@
     format('truetype');
 }
 
+canvas {
+    display: relative;
+}
+  
 
 #top-rectangle{
     border-top: solid 10pt black;
@@ -20,7 +24,8 @@
 
 
 .container {
-    padding: 5%;
+    padding: 2%;
+    position:relative;
 }
 
 p {
@@ -36,7 +41,7 @@ p {
 
 #author {
     font-family: 'PlantinHeadlineMTStd-LigCn';
-    font-size:0.25em;
+    font-size:0.22em;
 }
 
 div{
@@ -52,6 +57,24 @@ div{
     display: inline-block;
 }
 
-.col-12 col-md-4 {
+.col-12 col-lg-4{
+    border: 1px solid black;
+}
+
+.overlay {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: .3s ease;
     
+  }
+
+ .overlay:hover {
+    opacity: 0;
+    background-color: white;
 }
