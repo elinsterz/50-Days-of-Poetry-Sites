@@ -14,4 +14,4 @@ Day 3-4 (06/14/19 - 06/15/19): https://emilylin-itp.github.io/100-Days-of-Poetry
 Day 5-6 (06/16/19 - 06/17/19): https://emilylin-itp.github.io/100-Days-of-Poetry-Sites/5-6_code/ 
 <br>
 <br>
-Day 5-6 (06/16/19 - 06/17/19): https://emilylin-itp.github.io/100-Days-of-Poetry-Sites/7-8_code/ 
+Day 7-8 (06/18/19 - 06/19/19): https://emilylin-itp.github.io/100-Days-of-Poetry-Sites/7-8_code/ 
