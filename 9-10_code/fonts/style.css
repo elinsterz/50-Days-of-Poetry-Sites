@@ -1,0 +1,27 @@
+@font-face {
+    font-family:'CanelaText-Thin';
+    src: url('fonts/CanelaText-Thin.eot');
+    src: url('fonts/CanelaText-Thin.ttf');
+    format('truetype');
+}
+
+
+@font-face {
+    font-family:'FoundersGrotesk-Semibold';
+    src: url('fonts/FoundersGrotesk-Semibold.eot');
+    src: url('fonts/FoundersGrotesk-Semibold.ttf');
+    format('truetype');
+}
+
+h1{
+    font-family:'FoundersGrotesk-Semibold';
+    font-size: 0.5em;
+    
+}
+
+
+p{
+    font-family: 'CanelaText-Thin', 'Times New Roman', Times, serif;
+    font-size: 2em;
+    line-height: 2pt;
+}
