@@ -13,16 +13,58 @@
     format('truetype');
 }
 
-h1{
+
+#sketch-holder{
+    position:fixed;
+    z-index: 1;
+}
+
+.container{
+    padding: 2%;
+}
+
+#title{
     font-family:'FoundersGrotesk-Semibold';
     font-size: 1em;
     text-transform: uppercase;
     letter-spacing: 0.75pt;
+    text-align: left;
+    position:fixed;
+    padding-left: 1.2%;
 }
 
 
-p{
+.byline-div{
+    float:right;
+    /* transform: rotate(90deg); */
+}
+
+#byline{
+    position:fixed;
+    float: right;
+    font-family:'FoundersGrotesk-Semibold';
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.75pt;
+    text-align: left;
+    left: 750px;
+}
+
+
+#poem{
+    padding-top: 8%;
     font-family: 'CanelaText-Thin', 'Times New Roman', Times, serif;
-    font-size: 2.75em;
-    line-height: 1.5em;
+    font-size: 2.85em;
+    line-height: 1.55em;
+    letter-spacing: 0.25pt;
 }
+
+.gradient {
+  
+    /* will be "on top", if browser supports it */
+    background-image: radial-gradient(farthest-corner at 100px 100px,
+    #F3CDF3 30%, #FFD4D4 70%, #EBD3EB 100%);
+  
+    background: radial-gradient(farthest-corner at 100px 100px,
+    #F3CDF3 30%, #FFD4D4 50%, #EBD3EB 100%);
+  }
