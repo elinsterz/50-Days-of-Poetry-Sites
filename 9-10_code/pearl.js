@@ -29,7 +29,7 @@ function draw() {
 
   specularMaterial(255,235,248);
   //fill(255,200,0);
-  sphere(220, 900);
+  sphere(210, 900);
   // rotateY(millis() / 1000);
 }
 

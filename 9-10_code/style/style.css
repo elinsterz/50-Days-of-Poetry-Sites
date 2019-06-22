@@ -17,6 +17,7 @@
 #sketch-holder{
     position:fixed;
     z-index: 1;
+    display: flexbox;
 }
 
 .container{
