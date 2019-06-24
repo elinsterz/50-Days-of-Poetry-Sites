@@ -1,0 +1,126 @@
+@font-face {
+    font-family:'agipo_bold_condensed';
+    src: url('fonts/agipo_bold_condensed.eot');
+    src: url('fonts/agipo_bold_condensed.ttf');
+    format:('truetype');
+}
+
+
+@font-face {
+    font-family:'bb-book-contrasted';
+    src: url('fonts/bb-book-contrasted.eot');
+    src: url('fonts/bb-book-contrasted.ttf');
+    format:('truetype');
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    // overflow: hidden;
+  }
+
+.container{
+    padding: 8%;
+}
+
+.col-md-12{
+    text-align: center;
+}
+
+/* ------------- css for intro pg --------------- */
+#title-intro{
+    font-family: 'bb-book-contrasted';
+    font-size:3.5em;
+    color: white;
+    letter-spacing: 1.5pt;
+    padding-bottom: 1%;
+    line-height: 1.5em;
+}
+
+#author-intro{
+    font-family: 'agipo_bold_condensed', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.75em;
+    color:#FFCC1E;
+    text-transform: uppercase;
+}
+
+#header-intro{
+    margin-top: 30%;
+    /* margin:auto; */
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* ------------- sass for reveal --------------- */
+
+
+  
+  .wrapper {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    margin: auto;
+    width: 0px;
+    position: relative;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    background-color:black;
+    transition: width 2s ease;
+    
+    .content {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateY(-50%) translateX(-50%);
+      }
+    
+    &.active {
+      transition: width 3s ease;
+      width: 50%;
+    }
+    
+  }
+
+/* ------------- css for poem page --------------- */
+
+#header{
+    padding-bottom: 8%;
+}
+
+#title{
+    font-family: 'bb-book-contrasted';
+    font-size: 2.25em;
+    color: white;
+    letter-spacing: 1.5pt;
+    padding-bottom: 1%;
+}
+
+
+#author{
+    font-family: 'agipo_bold_condensed', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    color: white;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'agipo_bold_condensed', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 0.45pt;
+    line-height: 1.75em;
+    color: #FFCC1E;
+    text-transform: uppercase;
+}
+
+.seed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
