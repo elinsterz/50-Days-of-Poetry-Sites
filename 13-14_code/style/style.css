@@ -1,0 +1,69 @@
+@font-face {
+    font-family:'GalaxieCopernicus-Book';
+    src: url('fonts/GalaxieCopernicus-Book.eot');
+    src: url('fonts/GalaxieCopernicus-Book.ttf');
+    format('truetype');
+}
+
+@font-face {
+    font-family:'GalaxieCopernicus-BookItalic';
+    src: url('fonts/GalaxieCopernicus-BookItalic.eot');
+    src: url('fonts/GalaxieCopernicus-BookItalic.ttf');
+    format('truetype');
+}
+
+@font-face {
+    font-family:'GT-America-Extended-Black';
+    src: url('fonts/GT-America-Extended-Black.eot');
+    src: url('fonts/GT-America-Extended-Black.ttf');
+    format('truetype');
+}
+
+
+.container{
+    padding: 30%;
+    /* margin-top: 30%; */
+    /* border: 1px black solid; */
+
+    /* margin:auto; */
+     /* position: absolute; */
+    /* top: 50%; */
+}
+
+#title{
+    font-family: 'GalaxieCopernicus-Book';
+    font-size: 6em;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: -0.05em;
+    line-height: 0.9em;
+}
+
+#title-div{
+    /* border: 1px black solid; */
+}
+
+#author-div{
+    /* margin-left: auto;
+    margin-right: auto;
+    position: relative; */
+    /* border: 1px black solid; */
+    margin-top: 4%;
+}
+
+#author{
+    font-family: 'GT-America-Extended-Black';
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    text-align: center;
+}
+.gradient {
+    background-image:
+      radial-gradient(
+        circle,
+        gray,
+        white,
+        white
+      );
+  }
