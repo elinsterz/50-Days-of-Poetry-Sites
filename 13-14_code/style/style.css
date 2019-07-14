@@ -70,7 +70,7 @@ body{
     position: relative;
     width: 100%;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
 
@@ -101,9 +101,45 @@ body{
 }
 
 #bone5{
-    right: 100px;
+    right: 200px;
+    top: 30px;
+}
+
+#bone6{
+    left: 200px;
     top: 300px;
 }
+
+#bone7{
+    left: 400px;
+    top: 100px;
+}
+
+#bone8{
+    right: 450px;
+    top: 10px;
+}
+
+#bone9{
+    left: 350px;
+    bottom: 100px;
+}
+
+#bone10{
+    right: 350px;
+    top: 500px;
+}
+
+#bone11{
+    right: 100px;
+    bottom: 500px;
+}
+
+#bone11{
+    right: 10px;
+    top: 400px;
+}
+
 
 .draggable {
     cursor: -webkit-grabbing; cursor: grabbing;
@@ -112,9 +148,9 @@ body{
 
 #poem{
     font-family: 'GalaxieCopernicus-Book';
-    font-size: 1.5em;
+    font-size: 1.35em;
     text-align: left;
-    line-height: 1.8em;
+    line-height: 2em;
     margin-top: 10%;
     margin-bottom: 10%;
     /* border: 1px black solid; */
