@@ -19,15 +19,21 @@
     format('truetype');
 }
 
+body{
+    background-image:
+    radial-gradient(
+      circle,
+      silver,
+      whitesmoke,
+      white
+    );
+}
 
 .container{
-    padding: 30%;
-    /* margin-top: 30%; */
-    /* border: 1px black solid; */
-
-    /* margin:auto; */
-     /* position: absolute; */
-    /* top: 50%; */
+    padding-top: 20%;
+    position: relative;
+    margin: margin: 0 auto;
+    width: 100%;
 }
 
 #title{
@@ -41,6 +47,7 @@
 
 #title-div{
     /* border: 1px black solid; */
+    position: relative;
 }
 
 #author-div{
@@ -48,7 +55,7 @@
     margin-right: auto;
     position: relative; */
     /* border: 1px black solid; */
-    margin-top: 4%;
+    margin-top: 1%;
 }
 
 #author{
@@ -58,12 +65,57 @@
     letter-spacing: 0.08em;
     text-align: center;
 }
-.gradient {
-    background-image:
-      radial-gradient(
-        circle,
-        gray,
-        white,
-        white
-      );
-  }
+
+#arrow-div{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+}
+
+
+.bone_div{
+    z-index: 1;
+    position: absolute;
+    /* top: 100; */
+}
+
+#bone1{
+    left: 20px;
+    top: 150px;
+}
+
+#bone2{
+    right: 150px;
+    bottom: 200px;
+}
+
+#bone3{
+    right: 100px;
+    top: 50px;
+}
+
+#bone4{
+    left: 200px;
+    top: 200px;
+}
+
+#bone5{
+    right: 100px;
+    top: 300px;
+}
+
+.draggable {
+    cursor: -webkit-grabbing; cursor: grabbing;
+}
+
+
+#poem{
+    font-family: 'GalaxieCopernicus-Book';
+    font-size: 1.5em;
+    text-align: left;
+    line-height: 1.8em;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    /* border: 1px black solid; */
+}

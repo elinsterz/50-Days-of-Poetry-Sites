@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width= , initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Claudia Rankine</title>
+    <title>Good Bones</title>
 
     <!--Stylesheet-->
     <link rel="stylesheet" href="style/style.css">
@@ -27,24 +27,75 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
+
+    <!--jquery script-->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
 
 
 <body>
-    <div class = "gradient">
-        <div class='container'>
-            <div class='row justify-content-center'>
-                
-                <div id="title-div" class='col-12 col-md-12'>
-                    <h1 id="title">Good<br>Bones</h1>
-                </div>
+    <div class='container'>
+        <div class='row justify-content-center'>
 
-                <div id="author-div" class='col-12 col-md-12'>
-                    <h2 id="author">Maggie Smith</h2>
+            <!--bones-->
+            <div class="draggable">
+                <div id="bone1" class="bone_div">
+                    <img src="assets/bone1.svg" alt="bone 1">
                 </div>
             </div>
+
+            <div class="draggable">
+                <div id="bone2" class="bone_div">
+                    <img src="assets/bone 2.svg" alt="bone 2">
+                </div>
+            </div>
+
+            <div class="draggable">
+                <div id="bone3" class="bone_div">
+                    <img src="assets/bone 3.svg" alt="bone 3">
+                </div>
+            </div>
+
+            <div class="draggable">
+                <div id="bone4" class="bone_div">
+                    <img src="assets/bone 4.svg" alt="bone 4">
+                </div>
+            </div>
+
+            <div class="draggable">
+                <div id="bone5" class="bone_div">
+                    <img src="assets/bone 5.svg" alt="bone 5">
+                </div>
+            </div>
+
+            <div class="draggable">
+                <div id="bone6" class="bone_6">
+                    <img src="assets/bone 6.svg" alt="bone 6">
+                </div>
+            </div>
+
+            <!--title and author-->
+            <div id="title-div" class='col-12 col-md-12'>
+                <h1 id="title">Good<br>Bones</h1>
+            </div>
+
+            <div id="author-div" class='col-12 col-md-12'>
+                <h2 id="author">Maggie Smith</h2>
+            </div>
+
+            <!--arrow-->
+            <div id="arrow-div" class='col-12 col-md-12'>
+                <a href="poem.html"><img src="assets/arrow down.svg" alt="alt"></a>
+                
+            </div>
+
         </div>
     </div>
+
+    <!--main js script-->
+    <script src="script.js"></script>
+
 
 </body>
 
