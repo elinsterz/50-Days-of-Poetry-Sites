@@ -22,6 +22,11 @@ body{
 
 
 #title{
+    font-family: 'MaelstromTest-Bold';
+    font-size: 12em;
+    color: white;
+    line-height: 0.85em;
+    letter-spacing: 0.25px;
     /* z-index: 1; */
     padding: 2%;
     /* position: relative; */
