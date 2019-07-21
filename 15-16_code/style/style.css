@@ -1,0 +1,55 @@
+@font-face {
+    font-family:'MaelstromTest-Bold';
+    src: url('fonts/MaelstromTest-Bold.eot');
+    src: url('fonts/MaelstromTest-Bold.ttf');
+    format('truetype');
+}
+
+html{
+    margin: 5%;
+}
+
+#sketch-holder{
+    z-index: -1;
+    position: absolute;
+    display: flexbox;
+}
+
+body{
+    background: radial-gradient(circle,black, black);
+    padding: 2%;
+}
+
+
+#title{
+    /* z-index: 1; */
+    padding: 2%;
+    /* position: relative; */
+    /* border: solid white 1px; */
+}
+
+#author{
+    /* z-index: 1; */
+    /* position:relative; */
+    font-family: 'Helvetica';
+    font-size: 1.25em;
+    letter-spacing: 0.35pt;
+    font-weight: bold;
+    color: white;
+    padding: 2%;
+    /* border: solid white 1px; */
+}
+
+#poem{
+    font-family: 'Helvetica';
+    /* position:relative; */
+    font-weight: bold;
+    font-size: 1.25em;
+    letter-spacing: 0.35pt;
+    line-height: 1.85em;
+    color: white;
+    margin-top: 8%;
+    padding: 2%;
+    /* border: solid white 1px; */
+}
+
