@@ -1,0 +1,44 @@
+@font-face {
+    font-family:'PlantinMTInfant-Regular';
+    src: url('fonts/PlantinMTInfant-Regular.eot');
+    src: url('fonts/PlantinMTInfant-Regular.ttf');
+    format('truetype');
+}
+
+html{
+    margin: 5%;
+    font-family: 'PlantinMTInfant-Regular';
+    font-size: 1.25em;
+    /* border: solid 1px black; */
+}
+
+body{
+    background: radial-gradient(circle,#FEFFEF,#FEFFEF);
+    /* padding: 2%; */
+    /* border: solid 1px black; */
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #FEFFEF;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+    margin: auto;
+    font-family: 'PlantinMTInfant-Regular';
+    font-size: 1.25em;
+    /* border: solid 1px black; */
+  }
+
+
+
+.poem {
+    font-family: 'PlantinMTInfant-Regular';
+    font-size: 1.25em;
+    line-height: 2em;
+}
+
+div{
+    /* border: solid 1px black;  */
+}
