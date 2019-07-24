@@ -48,10 +48,10 @@ body{
     /* line-height: 100px; */
     vertical-align: middle;
     border-top: solid black 1pt;
-    /* border: solid 1px black; */
+    border-top: solid 1px black;
     padding-top: 2.5%;
     padding-bottom: 2.5%;
-  }
+}
 
 #byline{
     text-align: center;
