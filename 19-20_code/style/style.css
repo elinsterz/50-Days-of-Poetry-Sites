@@ -14,17 +14,31 @@
 }
 
 
-html{
-    margin-top: 25%;
-}
+
 
 .vl-sidebar{
     border-left: 0.5px solid black;
     height: 100%;
     position: absolute;
-    left: 95%;
+    right: 2%;
     top: 0;
     display: block;
+    padding-left: 2%;
+}
+
+.vl-sidebar-img{
+    height:100%;
+    width: 100%;
+    margin: 0;
+    border: 0;
+    vertical-align: center;
+}
+
+/*/////////////// TITLE PAGE /////////////*/
+
+.container{
+    vertical-align: center;
+    margin-top: 35%;
 }
 
 #title{
@@ -35,10 +49,10 @@ html{
 
 .vl-title {
     border-left: 0.5px solid black;
-    height: 80px;
-    padding-left: 2%;
+    height: 70px;
+    padding-left: 4%;
     padding-top: 1.25%;
-  }
+}
 
 
 #poem-title {
@@ -52,10 +66,43 @@ html{
     font-family: 'basis-grotesque-regular-pro';
     font-size: 11pt;
     letter-spacing: 0.08em;
-    line-height: 25px;
+    line-height: 22px;
     /* line-height: -0.25em; */
 }
 
-div{
-    /* border: solid 1px pink; */
+/* div{
+    border: solid 1px pink;
+} */
+
+
+/*/////////////// INSIDE POEM /////////////*/
+
+.header-title{
+    padding-left: 4%;
+    margin-top: 15%;
+}
+
+.poem-text{
+    font-family: 'TimesNewRomanMTStd';
+    letter-spacing: 0.03em;
+    font-size: 1.5em;
+    line-height: 1.45em;
+}
+
+.vl-poem-1 {
+    margin-top: 35%;
+    border-left: 0.5px solid black;
+    /* height: 20px; */
+    padding-top: -4%;
+    padding-left: 4%;
+    height:100px;
+}
+
+.vl-poem-2{
+    margin-top: 35%;
+    border-left: 0.5px solid black;
+    /* height: 20px; */
+    padding-left: 4%;
+    height:55px;
+    
 }
