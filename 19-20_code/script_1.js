@@ -24,11 +24,11 @@ function setup() {
 
 
     // Create a circle using vectors pointing from center
-    for (let angle = 0; angle < 360; angle += 9) {
+    for (let angle = 0; angle < 180; angle += 9) {
         // Note we are not starting from 0 in order to match the
         // path of a circle.
-        let v = p5.Vector.fromAngle(radians(angle - 25));
-        v.mult(500);
+        let v = p5.Vector.fromAngle(radians(angle - 90));
+        v.mult(900);
         circle.push(v);
         // Let's fill out morph ArrayList with blank PVectors while we are at it
         morph.push(createVector());
@@ -87,7 +87,7 @@ function draw() {
     // Draw a polygon that makes up all the vertices
     beginShape();
     noFill();
-    stroke(255, 20);
+    stroke(255, 50);
 
     morph.forEach(v => {
         vertex(v.x, v.y);
