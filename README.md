@@ -32,3 +32,6 @@ Day 15-16 (07/19/19 - 07/20/19): https://emilylin-itp.github.io/100-Days-of-Poet
 <br>
 <br>
 Day 17-18 (07/21/19 - 07/23/19): https://emilylin-itp.github.io/100-Days-of-Poetry-Sites/17-18_code/
+<br>
+<br>
+Day 19-20 (07/24/19 - 07/26/19): https://emilylin-itp.github.io/100-Days-of-Poetry-Sites/19-20_code/
