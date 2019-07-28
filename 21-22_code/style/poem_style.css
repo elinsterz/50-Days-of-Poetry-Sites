@@ -72,20 +72,35 @@ html, body{
 
 #title{
     font-family: 'DrukTextWide-Bold';
-    font-size: 1em;
+    font-size: 0.9em;
     text-transform: uppercase;
     letter-spacing: 0.125em;
     color: white;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     z-index: 3;
 }
 
 #poem{
     font-family: 'Fortescue-regular';
-    font-size: 2.25em;
+    font-size: 2em;
     color: white;    
     z-index: 2;
-    line-height: 1.55em;
+    line-height: 1.35em;
+}
+
+#poem-byline{
+    margin-top:2%;
+    margin-bottom:2%;
+    font-family:'DrukTextWide-Bold';
+    font-size: 0.9em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    z-index: 2;
+    color: white;
+    transform-origin: 20% 800px;
+    transform: rotate(90deg);
+    display: block;
+    position: relative;
 }
 
 a{
@@ -102,3 +117,8 @@ a{
     border: 1px solid lime;
     /* background-color: black; */
 } */
+
+#yellow-spotted-img{
+    width: 250px;
+    z-index: 5;
+}

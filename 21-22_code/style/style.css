@@ -68,7 +68,7 @@
 }
 
 #zoom {
-    transition: transform 3s; /* Animation */
+    transition: transform 2s; /* Animation */
     margin: 0 auto;
 }
   
