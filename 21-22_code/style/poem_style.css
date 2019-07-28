@@ -1,0 +1,72 @@
+@font-face {
+    font-family:'DrukTextWide-Bold';
+    src: url('fonts/DrukTextWide-Bold.eot');
+    src: url('fonts/DrukTextWide-Bold.ttf');
+    format('truetype');
+}
+
+@font-face {
+    font-family:'fortescue-regular';
+    src: url('fonts/fortescue-regular.eot');
+    src: url('fonts/fortescue-regular.ttf');
+    format('truetype');
+}
+
+@font-face {
+    font-family:'fortescue-bold';
+    src: url('fonts/fortescue-bold.eot');
+    src: url('fonts/fortescue-bold.ttf');
+    format('truetype');
+}
+
+
+html, body{
+    background-color: black;
+}
+
+#poem-container{
+    margin-top: 8%;
+    margin-bottom: 15%;
+    background-color:black;
+}
+
+
+#bg{
+    position:fixed;
+    top:0;
+    left:0;
+    min-width:100%;
+    min-height: 100%;
+    z-index: 0;
+}
+
+
+/*//////////// POEM PAGE ///////////// */
+
+
+#title{
+    font-family: 'DrukTextWide-Bold';
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.125em;
+    color: white;
+    margin-bottom: 5%;
+    z-index: 3;
+}
+
+#poem{
+    font-family: 'Fortescue-regular';
+    font-size: 2.25em;
+    color: white;    
+    z-index: 2;
+    line-height: 1.55em;
+}
+
+a{
+    color: white;
+}
+
+/* div{
+    border: 1px solid lime;
+    /* background-color: black; */
+} */

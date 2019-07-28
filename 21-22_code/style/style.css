@@ -1,0 +1,107 @@
+@font-face {
+    font-family:'DrukTextWide-Bold';
+    src: url('fonts/DrukTextWide-Bold.eot');
+    src: url('fonts/DrukTextWide-Bold.ttf');
+    format('truetype');
+}
+
+@font-face {
+    font-family:'fortescue-regular';
+    src: url('fonts/fortescue-regular.eot');
+    src: url('fonts/fortescue-regular.ttf');
+    format('truetype');
+}
+
+@font-face {
+    font-family:'fortescue-bold';
+    src: url('fonts/fortescue-bold.eot');
+    src: url('fonts/fortescue-bold.ttf');
+    format('truetype');
+}
+
+#bg{
+    position:fixed;
+    top:0;
+    left:0;
+    min-width:100%;
+    min-height: 100%;
+    z-index: 0;
+}
+
+/*//////////// TITLE PAGE ///////////// */
+#title{
+    margin-top:15%;
+    z-index:2;
+}
+
+#index-title {
+    font-family: 'fortescue-bold';
+    font-size: 96pt;
+    text-transform: uppercase;
+    line-height: 1em;
+    letter-spacing: 0.075em;
+    color: black;
+}
+
+#title img {
+    height: 92px;
+    vertical-align: baseline;
+}
+
+#byline{
+    margin-top:2%;
+    margin-bottom:2%;
+    font-family:'DrukTextWide-Bold';
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.bottom-bar{
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 6%;;
+}
+
+#zoom {
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+  
+#zoom:hover {
+    /* transition: all 0.5s ease; */
+    transform: translate(0%, 50%);
+    /* transition: top ease 0.5s; */
+    /* transform: scale(2);  */
+}
+
+.zoom-img:hover{
+    -webkit-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    transform: scale(0);
+    transition: 2s ease;
+}
+
+/*//////////// POEM PAGE ///////////// */
+
+
+#poem-title{
+ font-family: 'DrukTextWide-Bold';
+ font-size: 1em;
+ text-transform: uppercase;
+ letter-spacing: 0.125pt;
+ color: white;
+}
+
+#poem{
+
+}
+
+
+
+/* div{
+    border: 1px solid lime;
+} */
