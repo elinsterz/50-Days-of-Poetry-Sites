@@ -55,6 +55,7 @@
     font-size: 1em;
     letter-spacing: 0.1em;
     text-transform: uppercase;
+    z-index: 2;
 }
 
 .bottom-bar{
@@ -67,7 +68,7 @@
 }
 
 #zoom {
-    transition: transform .2s; /* Animation */
+    transition: transform 3s; /* Animation */
     margin: 0 auto;
 }
   
@@ -82,22 +83,7 @@
     -webkit-transform: scale(0.1);
     -ms-transform: scale(0.1);
     transform: scale(0);
-    transition: 2s ease;
-}
-
-/*//////////// POEM PAGE ///////////// */
-
-
-#poem-title{
- font-family: 'DrukTextWide-Bold';
- font-size: 1em;
- text-transform: uppercase;
- letter-spacing: 0.125pt;
- color: white;
-}
-
-#poem{
-
+    transition: 5s ease;
 }
 
 

@@ -40,6 +40,32 @@ html, body{
     z-index: 0;
 }
 
+#zoom {
+    transition: transform 2s; /* Animation */
+    margin: 0 auto;
+}
+  
+#zoom:hover {
+    transform: translate(0%, -50%);
+}
+
+.zoom-img:hover{
+    -webkit-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    transform: scale(0);
+    transition: 5s ease;
+}
+
+.top-bar{
+    overflow: hidden;
+    background-color:white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 6%;
+    z-index: 3;
+}
+
 
 /*//////////// POEM PAGE ///////////// */
 
@@ -64,6 +90,12 @@ html, body{
 
 a{
     color: white;
+}
+
+#robin-img{
+    padding-top: 5%;
+    width: 3em;
+    z-index: 2;
 }
 
 /* div{

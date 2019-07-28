@@ -29,22 +29,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
 </head>
 
-<style>
-    a {
-        color: white;
-    }
-
-    a:hover{
-        color: white;
-    }
-</style>
 
 <body>
+    <!--bottom bar-->
+    <a href="index.html">
+        <div id='zoom' class="top-bar"> </div>
+    </a>
+
+
     <div id='poem-container' class='row justify-content-center'>
         <div id='title' class='col-12 col-md-8'>
-            <a href="index.html">
-                <p id="poem-title">Extinction of Silence</p>
-            </a>
+            <p id="poem-title">Extinction of Silence</p>
         </div>
 
         <!--poem-->
@@ -70,6 +65,10 @@
 
                 Where legend has it some once common bird<br>
                 Decades ago was first not seen, not heard.</p>
+        </div>
+
+        <div class= 'col-12 col-md-8' id='robin-img'>
+            <img src="style/assets/bw_robin.jpg" class='zoom-img' alt="robin">
         </div>
     </div>
 
