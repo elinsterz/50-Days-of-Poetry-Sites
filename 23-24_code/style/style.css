@@ -1,0 +1,77 @@
+@font-face {
+    font-family:'merkury_mono';
+    src: url('fonts/merkury_mono.eot');
+    src: url('fonts/merkury_mono.ttf');
+    format('truetype');
+}
+
+@font-face {
+    font-family:'FoundersGrotesk-Semibold';
+    src: url('fonts/FoundersGrotesk-Semibold.eot');
+    src: url('fonts/FoundersGrotesk-Semibold.ttf');
+    format('truetype');
+}
+
+
+#div-title{
+    margin-top: 25%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100%;
+}
+
+#index-title{
+    font-family: 'FoundersGrotesk-Semibold';
+    font-size: 7em;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    line-height: 1.5em;
+    color: white;
+}
+
+#index-author{
+    font-family: 'merkury_mono';
+    font-size: 1.15em;
+    /* text-transform: uppercase; */
+    color: white;
+}
+
+#arrow-right{
+    width: 6%;
+    padding-left: 20px;
+    vertical-align: baseline;
+}   
+
+#poem-title{
+    font-family: 'FoundersGrotesk-Semibold';
+    font-size: 1.45em; 
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    padding-bottom: 5%;
+}
+
+#poem-div{
+        margin-top: 15%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 100%;
+}
+
+#arrow-left{
+    width: 12%;
+    vertical-align: baseline;
+}   
+
+#poem{
+    font-family: 'merkury_mono';
+    color: white;
+    font-size: 1.1em;
+    letter-spacing: 0.02em;
+    line-height: 1.75em;
+}
+
+
+/* 
+  div{
+      border: 0.25px pink solid;
+  } */
