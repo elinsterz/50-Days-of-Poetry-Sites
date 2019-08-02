@@ -9,6 +9,12 @@ var Y_AXIS = 1;
 var X_AXIS = 2;
 var c1, c2;
 
+// var font;
+
+// function preload(){
+//     font = loadFont('/style/fonts/FoundersGrotesk-Semibold');
+// }
+
 function setup() {
     //format canvas
     let canvas = createCanvas(windowWidth, windowHeight);
