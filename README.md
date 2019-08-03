@@ -40,4 +40,7 @@ Day 19-20 (07/24/19 - 07/26/19): https://emilylin-itp.github.io/100-Days-of-Poet
 Day 21-22 (07/27/19 - 07/28/19): https://emilylin-itp.github.io/100-Days-of-Poetry-Sites/21-22_code/
 <br>
 <br>
-Day 23-24 (07/28/19 - 08/01/19): https://emilylin-itp.github.io/100-Days-of-Poetry-Sites/23-24_code/
+Day 23-24 (07/28/19 - 07/31/19): https://emilylin-itp.github.io/100-Days-of-Poetry-Sites/23-24_code/
+<br>
+<br>
+Day 25-26 (08/01/19 - 08/02/19): https://emilylin-itp.github.io/100-Days-of-Poetry-Sites/25-26_code/
