@@ -24,6 +24,7 @@ body{
     top: 0;
     width: 100%; 
     overflow:hidden;
+    z-index: 1;
 }
 
 .navbar{
@@ -35,4 +36,22 @@ body{
 #navbar a:hover{
     color:  rgb(255,255,255) !important;
     text-decoration:none;
+}
+
+/* div{
+    border: 1px solid pink;
+} */
+
+/*///////////////  POEM  //////////////*/
+#poem-container{
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+
+#poem{
+    font-family: 'apercu_bold';
+    font-size: 2em;
+    letter-spacing: 0.35pt;
+    color: white;
+    line-height:1.5em;
 }
