@@ -1,0 +1,38 @@
+@font-face {
+    font-family:'apercu_bold';
+    src: url('fonts/apercu_bold.eot');
+    src: url('fonts/apercu_bold.ttf');
+    format('truetype');
+}
+
+@font-face {
+    font-family:'TiemposText-Regular';
+    src: url('fonts/TiemposText-Regular.eot');
+    src: url('fonts/TiemposText-Regular.ttf');
+    format('truetype');
+}
+
+body{
+    background-color: rgb(35,177,210) !important;
+}
+
+#navbar{
+    padding-left: 100px;
+    padding-top: 2%;
+    background-color: rgb(35,177,210);
+    position: fixed; 
+    top: 0;
+    width: 100%; 
+    overflow:hidden;
+}
+
+.navbar{
+    font-family: 'TiemposText-Regular';
+    font-size: 1.5em;
+    color: black;
+}
+
+#navbar a:hover{
+    color:  rgb(255,255,255) !important;
+    text-decoration:none;
+}
