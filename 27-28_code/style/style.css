@@ -1,0 +1,68 @@
+body{
+    background-color: black !important;
+}
+
+
+#navbar-index{
+    border-top: white solid 0.5px;
+    background-color: black;
+    z-index: 1;
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+}
+
+#byline-div{
+    /* padding-top: 3%;
+    padding-bottom: 3%; */
+    text-align: center;
+    vertical-align: center;
+    top: 38%;
+}
+
+#byline{
+    z-index: 2;
+    font: 'Helvetica';
+    font-weight: normal;
+    font-size: 11pt;   
+    letter-spacing: 0.75pt;
+    color: black; 
+}
+
+#byline:hover{
+    text-decoration:none;
+    color: white;
+}
+
+
+/* /////////POEM PAGE /////////*/
+#navbar-poem{
+    border-bottom: white solid 0.5px;
+    background-color: black;
+    z-index: 1;
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    top:0;
+    overflow: hidden;
+}
+
+#poem-div{
+    margin-top: 15%;
+
+}
+
+#poem{
+    font: 'Helvetica';
+    font-weight: normal;
+    font-size: 1.65em;   
+    letter-spacing: 0.75pt;
+    color: white; 
+}
+/* 
+div{
+    border: 1px solid blue;
+} */
+
