@@ -12,6 +12,8 @@ body{
     position: fixed;
     bottom: 0;
     overflow: hidden;
+    transition: transform 2s; /* Animation */
+    margin: 0 auto;
 }
 
 #byline-div{
@@ -37,6 +39,7 @@ body{
 }
 
 
+
 /* /////////POEM PAGE /////////*/
 #navbar-poem{
     border-bottom: white solid 0.5px;
@@ -47,22 +50,43 @@ body{
     position: fixed;
     top:0;
     overflow: hidden;
+    
 }
 
 #poem-div{
     margin-top: 15%;
-
+    margin-bottom: 15%;
 }
 
-#poem{
+#text{
     font: 'Helvetica';
     font-weight: normal;
     font-size: 1.65em;   
-    letter-spacing: 0.75pt;
+    letter-spacing: 0.5pt;
     color: white; 
+    line-height: 1.5em;
 }
-/* 
-div{
+
+#poem-container{
+    padding-bottom: 5%;
+}
+
+#dedicated-to{
+    margin-top: 10%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    font: 'Helvetica';
+    font-weight: thin;
+    font-size: 0.35em;   
+    letter-spacing: 0.5pt;
+    color: white; 
+    line-height: 1.6em;
+    border-top: white solid 1pt;
+}
+
+
+
+/* div{
     border: 1px solid blue;
 } */
 

@@ -56,7 +56,7 @@ function drawText() {
     textAlign(CENTER);
     textSize(132);
     textFont('Helvetica');
-    strokeWeight(7);
+    strokeWeight(8);
     stroke(0);
 
     for (let i = 0; i < 5; i++) {
@@ -64,7 +64,6 @@ function drawText() {
         let splitString = split(myString, ',');
         text(splitString[i], windowWidth / 2, i * 120 + (windowHeight / 2) - 120);
     }
-
 
 }
 
