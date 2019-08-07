@@ -1,0 +1,23 @@
+@font-face {
+    font-family:'merkury_mono';
+    src: url('fonts/merkury_mono.eot');
+    src: url('fonts/merkury_mono.ttf');
+    format('truetype');
+}
+
+@font-face {
+    font-family:'FoundersGrotesk-Semibold';
+    src: url('fonts/FoundersGrotesk-Semibold.eot');
+    src: url('fonts/FoundersGrotesk-Semibold.ttf');
+    format('truetype');
+}
+
+
+#sketch-holder{
+    display: block;
+}
+
+
+div{
+    border: 1px solid blue;
+}

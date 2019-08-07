@@ -1,6 +1,9 @@
+//Edited from: 
+//https://medium.com/@colinpatrickreid/creating-impressionistic-art-with-photography-and-p5-js-e073d794aa40
+
 let img;
 function preload() {
-    img = loadImage('assets/losangeles_hike.jpg');
+    img = loadImage('assets/malibu_hike.jpg');
 }
 
 
@@ -10,7 +13,7 @@ function setup() {
     //format canvas
     let canvas = createCanvas(windowWidth, windowHeight);
     canvas.position(0, 0);
-    canvas.style('z-index', '0');
+    canvas.style('z-index', '-1');
 
     // Move the canvas so it’s inside our <div id="sketch-holder">.
     canvas.parent('sketch-holder');
@@ -27,12 +30,12 @@ function draw() {
             alpha = img.pixels[index + 3]
             pixel_brightness = (red + blue + green) / 3
             strokeWeight(0.5);
-            stroke(red, blue, green, alpha / (50 * random()));
+            stroke(red, blue, green, alpha / 25 * random(0,10));
 
             // noStroke();
             // fill(red, blue, green, alpha/ random(0,255));
             // ellipse(x * random()+ mouseX, y + random() + mouseY, 5);
-            line(x + random(), y + random(), x + random(-10,10) * random(), y + random(-10,10) * random());
+            line(x + random(), y + random(), x + random() * random(-30,30), y + random() * random(-30,30));
 
         }
     }
