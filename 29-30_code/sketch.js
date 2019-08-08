@@ -6,8 +6,6 @@ function preload() {
     img = loadImage('assets/malibu_hike.jpg');
 }
 
-
-
 function setup() {
     img.loadPixels();
     //format canvas
@@ -30,12 +28,12 @@ function draw() {
             alpha = img.pixels[index + 3]
             pixel_brightness = (red + blue + green) / 3
             strokeWeight(0.5);
-            stroke(red, blue, green, alpha / 25 * random(0,10));
+            stroke(red, blue, green, alpha / 25 * random(0, 10));
 
             // noStroke();
             // fill(red, blue, green, alpha/ random(0,255));
             // ellipse(x * random()+ mouseX, y + random() + mouseY, 5);
-            line(x + random(), y + random(), x + random() * random(-30,30), y + random() * random(-30,30));
+            line(x + random(), y + random(), x + random() * random(-30, 30), y + random() * random(-30, 30));
 
         }
     }
