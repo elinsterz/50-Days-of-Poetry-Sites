@@ -47,3 +47,6 @@ Day 25-26 (08/01/19 - 08/02/19): https://emilylin-itp.github.io/100-Days-of-Poet
 <br>
 <br>
 Day 27-28 (08/03/19 - 08/04/19): https://emilylin-itp.github.io/100-Days-of-Poetry-Sites/27-28_code/
+<br>
+<br>
+Day 29-30 (08/05/19 - 08/07/19): https://emilylin-itp.github.io/100-Days-of-Poetry-Sites/29-30_code/
