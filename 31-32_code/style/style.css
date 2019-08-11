@@ -1,0 +1,47 @@
+@font-face {
+    font-family:'CanelaText-Regular';
+    src: url('fonts/CanelaText-Regular.eot');
+    src: url('fonts/CanelaText-Regular.woff');
+    format('truetype');
+}
+
+
+#title-div{
+    z-index: 1;
+    margin: auto;
+    background-color: none;
+    position: relative;
+    top: 50%;
+    margin-top: 28%;
+    margin-bottom: 28%;
+}
+
+#title{
+    font-family: 'CanelaText-Regular';
+    font-size: 7em;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: white;
+}
+
+#poem-div{
+    z-index: 2;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 5%;
+    width: 600px;
+    height: 100%;
+    overflow: scroll;
+    background-color: black;
+    font-family: 'CanelaText-Regular';
+    font-size: 1.25em;
+    line-height: 1.65em;
+    color: white;
+    float: right;
+}
+
+div{
+    border: 1px blue solid;
+}
+
