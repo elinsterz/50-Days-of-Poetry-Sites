@@ -29,9 +29,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
 </head>
 
-<style>
-    background-color: black;
-</style>
 
 <body>
 
@@ -42,6 +39,11 @@
         <script id='sketch' src="sketch.js"></script>
     </div>
 
+    <div id='diamond-div'>
+        <img src="assets/diamond-outline.svg" id='diamond' alt="diamond" onmouseover="hover(this); "
+            onmouseout="unhover(this);" onclick = "togglePoem()">
+    </div>
+
     <div id='title-div' class='row justify-content center'>
         <div class='col-12 col md-8'>
             <p id='title'>Autumn</p>
@@ -50,6 +52,15 @@
 
     <div id='poem-div' class='row justify-content end'>
         <div class='col-12 col md-6'>
+            <p>
+                Autumn<br>
+                By Louise Glück
+            </p>
+
+            <p>
+                <img src="assets/white-line.svg" alt="white line">
+            </p>
+
             <p>
                 The part of life <br>
                 devoted to contemplation<br>

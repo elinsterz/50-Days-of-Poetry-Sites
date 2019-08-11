@@ -5,6 +5,10 @@
     format('truetype');
 }
 
+body{
+    background-color: black !important;
+}
+
 
 #title-div{
     z-index: 1;
@@ -24,7 +28,9 @@
     color: white;
 }
 
+
 #poem-div{
+    display: none;
     z-index: 2;
     position: absolute;
     top: 0px;
@@ -39,9 +45,31 @@
     line-height: 1.65em;
     color: white;
     float: right;
+    transition: 0.5s ease-in-out;
+    border-left: white solid 1px;
 }
 
-div{
+#diamond-div{
+ float:right;
+ padding: 2%;
+ z-index: 3;   
+ position:absolute;
+ top: 0px;
+ right: 0px;
+}
+
+#diamond: hover{
+}
+
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: white; 
+    border-radius: 10px;
+  }
+  
+
+/* div{
     border: 1px blue solid;
 }
-
+ */

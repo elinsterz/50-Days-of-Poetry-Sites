@@ -1,7 +1,18 @@
-function openNav(){
-    document.getElementById("poem-div").style.width = "500px";
+
+function togglePoem() {
+    let x = document.getElementById("poem-div");
+    if (x.style.display !== 'none') {
+        x.style.display = 'none';
+    } else {
+        x.style.display = 'block';
+    }
 }
 
-function closeNav(){
-    document.getElementById("poem-div").style.width = "0";
+
+function hover(element) {
+    element.setAttribute('src', 'assets/diamond.svg');
+}
+
+function unhover(element) {
+    element.setAttribute('src', 'assets/diamond-outline.svg');
 }

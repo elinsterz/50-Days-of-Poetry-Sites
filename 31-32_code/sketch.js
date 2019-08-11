@@ -1,6 +1,6 @@
 //make empty array
 let bubbles = [];
-let numBubbles = 100;
+let numBubbles = 20;
 
 function setup() {
   let canvas = createCanvas(windowWidth, windowHeight);
@@ -10,12 +10,11 @@ function setup() {
   // Move the canvas so it’s inside our <div id="sketch-holder">.
   canvas.parent('sketch-holder');
 
-  //make flame slower
-  frameRate(12);
+  frameRate(8);
 }
 
 function draw() {
-  background(0, 30);
+  background(0, 80);
 
   //loop through all the bugs backwards
   //looping backwards lets us see older particles on top
@@ -26,7 +25,7 @@ function draw() {
 
     if (bubbles[i].radius <= 0) {
       //remove the dead ones
-      bubbles.splice(i, 2);
+      bubbles.splice(i, 3);
     }
   }
 
@@ -48,11 +47,11 @@ class Bubble {
     this.color = fill(255);
     let r = random(2);
     if (r < 1) {
-      this.color = color(40, 60, 205, 10); //orange
+      this.color = color(40, 60, 205, 10); //blue
     } else if (r >= 1 && r < 2) {
-      this.color = color(255, 120, 20, 15); //yellow 
+      this.color = color(255, 120, 20, 15); //orange
     } else if (r >= 2) {
-      this.color = color(255, 250, 5, 50); //reddish 
+      this.color = color(255, 250, 35, 20); //yellow 
     }
   }
   
