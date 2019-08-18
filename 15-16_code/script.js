@@ -65,3 +65,8 @@ class Bubble {
         image(this.photo, this.x, this.y, this.r, this.r);
     }
 }
+
+
+function windowResized() {
+    resizeCanvas(windowWidth, windowHeight);
+  }

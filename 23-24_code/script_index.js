@@ -32,6 +32,10 @@ function setup() {
     // noLoop();
 }
 
+function windowResized() {
+    resizeCanvas(windowWidth, windowHeight);
+  }
+
 function draw() {
     // Background
     setGradient(0, 0, width, height, c1, c2, Y_AXIS);

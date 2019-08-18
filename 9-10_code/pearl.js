@@ -33,3 +33,6 @@ function draw() {
   // rotateY(millis() / 1000);
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}

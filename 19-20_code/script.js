@@ -14,6 +14,8 @@ let morph = [];
 // This boolean variable will control if we are morphing to a circle or square
 let state = false;
 
+
+
 function setup() {
     let canvas = createCanvas(windowWidth, windowHeight);
     canvas.position(0, 0);
@@ -94,3 +96,7 @@ function draw() {
     });
     endShape(CLOSE);
 }
+
+function windowResized() {
+    resizeCanvas(windowWidth, windowHeight);
+  }

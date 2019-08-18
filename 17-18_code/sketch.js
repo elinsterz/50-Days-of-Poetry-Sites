@@ -9,6 +9,8 @@ let noiseMax = 5;
 let slider; 
 let phase = 0;
 
+
+
 function setup() {
   
   let canvas = createCanvas(windowWidth, windowHeight);
@@ -46,4 +48,8 @@ function draw() {
   endShape();
   phase += 0.005;
   // noLoop();
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
