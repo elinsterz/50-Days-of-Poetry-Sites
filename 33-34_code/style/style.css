@@ -1,0 +1,87 @@
+@font-face {
+    font-family:'CanelaText-Thin';
+    src: url('fonts/CanelaText-Thin.eot');
+    src: url('fonts/CanelaText-Thin.ttf');
+    format('truetype');
+}
+
+body{
+    background-color: #261E05 !important; 
+}
+
+#sketch-holder{
+    position:fixed;
+    z-index: -1;
+}
+
+#title-div{
+    z-index: 2;
+    /* margin: auto; */
+    background-color: none;
+    position: relative;
+    display: block;
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+#title{
+    font-family: 'CanelaText-Thin';
+    text-align: center;
+    color: white;
+    font-size: 4em;
+    text-transform: uppercase;
+    line-height: 1em;
+}
+
+#author-div{
+    margin-top: 6%;
+    text-align: center;
+    margin-bottom: 28%;
+}
+
+#vl-div{
+    margin-top: 6%;
+    text-align: center;
+}
+
+#author{
+    font-family: 'AtlasGrotesk-Regular';
+    text-align: center;
+    color: white;
+    font-size:1em;
+    text-transform: uppercase;
+    line-height: 1em;
+    letter-spacing: 2pt;
+}
+
+#hl-div{
+    margin-top: 6%;
+    margin-bottom: 6%;
+    text-align: center;
+}
+
+#horizontal-line{
+    width: 100%;
+}
+
+#number-div{
+    font-family: 'AtlasGrotesk-Regular';
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    margin-top: 6%;s
+}
+
+#poem-div{
+    margin-top: 5%;
+    font-family: 'CanelaText-Thin';
+    text-align: left;
+    color: white;
+    font-size:  1.8em;
+    line-height: 1.9em;    
+}
+
+
+div{
+    border: 1px transparent solid;
+}

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Autumn</title>
+    <title>There is a gold light in certain old paintings</title>
 
     <!--Stylesheet-->
     <link rel="stylesheet" href="style/style.css">
@@ -24,25 +24,101 @@
         crossorigin="anonymous"></script>
 
     <!--p5js script-->
-    <script src="fluid.js"></script>
-    <script src="fluid_utils.js"></script>
-    <script src="sketch.js"></script>
-
-    <!--style-->
-    <style>
-        body {
-            margin: 0;
-        }
-
-        canvas {
-            width: 100%;
-            height: 100%
-        }
-    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
 </head>
 
-<body>
 
+<body>
+    <div id='sketch-holder'>
+        <!--js script-->
+        <script id='sketch' src="sketch.js"></script>
+    </div>
+
+    <div class='container'>
+        <!--title-->
+        <div id='title-div' class='row justify-content center'>
+            <div class='col-12 col md-8'>
+                <p id='title'>There is a gold light in<br>certain old paintings</p>
+            </div>
+            <!--vertical line-->
+            <div id=vl-div class='col-12 col md-8'>
+                <img src="assets/vertical_line.svg" id="vertical-line" alt="vertical line">
+            </div>
+            <!--author-->
+            <div id='author-div' class='col-12 col md-8'>
+                <p id='author'>By Donald Justice</p>
+            </div>
+
+            <!--horizontal line-->
+            <div id='hl-div' class='col-12 col md-8'>
+                <img src="assets/horizontal_line.svg" id="horizontal-line" alt="horizontal line">
+            </div>
+
+            <!--#1-->
+            <div id='number-div' class='col-12 col md-6'>
+                <p id='number'>1</p>
+            </div>
+
+            <!--poem 1-->
+            <div id='poem-div' class='col-12 col md-6'>
+                <p id='poem'>
+                    There is a gold light in certain old paintings<br>
+                    That represents a diffusion of sunlight.<br>
+                    It is like happiness, when we are happy.<br>
+                    It comes from everywhere and from nowhere at once, this light,<br>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;And the poor soldiers sprawled at the foot of the cross<br>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Share in its charity equally with the cross.
+                </p>
+            </div>
+
+            <!--horizontal line-->
+            <div id='hl-div' class='col-12 col md-8'>
+                <img src="assets/horizontal_line.svg" id="horizontal-line" alt="horizontal line">
+            </div>
+
+            <!--#2-->
+            <div id='number-div' class='col-12 col md-6'>
+                <p id='number'>2</p>
+            </div>
+
+            <!--poem 2-->
+            <div id='poem-div' class='col-12 col md-6'>
+                <p id='poem'>
+                    Orpheus hesitated beside the black river.<br>
+                    With so much to look forward to he looked back.<br>
+                    We think he sang then, but the song is lost.<br>
+                    At least he had seen once more the beloved back.<br>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;I say the song went this way: O prolong<br>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Now the sorrow if that is all there is to prolong.
+                </p>
+            </div>
+
+            <!--horizontal line-->
+            <div id='hl-div' class='col-12 col md-8'>
+                <img src="assets/horizontal_line.svg" id="horizontal-line" alt="horizontal line">
+            </div>
+
+            <!--#2-->
+            <div id='number-div' class='col-12 col md-6'>
+                <p id='number'>3</p>
+            </div>
+
+            <!--poem 2-->
+            <div id='poem-div' class='col-12 col md-6'>
+                <p id='poem'>
+                    The world is very dusty, uncle. Let us work.<br>
+                    One day the sickness shall pass from the earth for good.<br>
+                    The orchard will bloom; someone will play the guitar.<br>
+                    Our work will be seen as strong and clean and good.<br>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;And all that we suffered through having existed<br>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Shall be forgotten as though it had never existed.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
 
 </body>
-</html>
