@@ -18,6 +18,10 @@ function setup() {
     // frameRate(8);
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
 function draw() {
     for (x = 0; x < windowWidth; x = x + 5) {
         for (y = 0; y < img.height; y = y + 5) {

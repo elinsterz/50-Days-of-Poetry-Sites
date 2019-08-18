@@ -13,6 +13,10 @@ function preload() {
   font = loadFont('style/fonts/apercu_bold.otf');
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
 
 function setup() {
   createCanvas(windowWidth, windowHeight);

@@ -13,6 +13,10 @@ function setup() {
   frameRate(8);
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
 function draw() {
   background(0, 80);
 

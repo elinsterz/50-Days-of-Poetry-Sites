@@ -33,6 +33,10 @@ function setup() {
     particle = new Particle();
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
 function draw() {
     background(0);
 
