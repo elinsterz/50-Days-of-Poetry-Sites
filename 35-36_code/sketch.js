@@ -23,8 +23,8 @@ function draw() {
     imageMode(CENTER);
 
     x += 0.002;
-    translate(width/2, height/2 + 100);
+    translate(width/2, height/2 + 25);
     rotate(x);
     // rect(0, 0, 100, 100);
-    image(img, 0, 0, 1024, 1024);
+    image(img, 0, 0, 1048, 1048);
 }
