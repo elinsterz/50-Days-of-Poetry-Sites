@@ -1,0 +1,27 @@
+@font-face {
+    font-family:'Fugue Head';
+    src: url('fonts/Fugue Head.eot');
+    src: url('fonts/Fugue Head.ttf');
+    format('truetype');
+}
+
+body{
+    background-color: #32A0FF;
+}
+
+#title-div{
+    text-align: center;
+    font-family: 'Fugue Head';
+    font-size: 4em;
+    color: white;
+    margin: 2% 20%;
+    letter-spacing: 1px;
+}
+
+#sketch-div{
+    position:fixed;
+}
+
+/* div{
+    border: 1px yellow solid;
+} */
