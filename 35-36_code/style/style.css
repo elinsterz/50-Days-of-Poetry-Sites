@@ -8,7 +8,6 @@
 
 body{
     background-color: #32A0FF;
-    margin: 5%;
 }
 
 #title-div{
@@ -16,15 +15,17 @@ body{
     font-family: 'Fugue Head';
     font-size: 4em;
     color: black;
-    margin: 2% 20%;
+    margin: 0% 2%;
     letter-spacing: 1px;
     line-height: 1.05em;
+    position: relative;
+    display: block;
 }
 
-#sketch-div{
+#sketch-holder{
     position:fixed;
+    z-index: -1;
 }
-
 
 .grid-container{
     display: grid;
@@ -33,6 +34,8 @@ body{
     padding: 3%;
     /* border: 1px solid purple; */
     background-color: transparent;
+    position: relative;
+    margin-bottom: 10%;
 }
 
 .grid-container > div {
@@ -44,23 +47,142 @@ body{
     letter-spacing: 1px;
     line-height: 1.05em;
     font-size: 4em;
+    overflow: scroll;
   }
-
-.item1 {
+  
+#item1 {
     background-color: yellow;
+    border: 2px solid black;
     grid-row-start: 1;
-    grid-row-end: 5;    
+    grid-row-end: 3;  
+    grid-column-start:1;
+    grid-column-end: 3; 
+    min-height: 400px;
+    min-width: 430px; 
+    max-height: 400px;
+    max-width: 430px;
 }
 
 .item2{
     background-color: yellow;
+    border: 2px solid black;
     grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 7;
+}
+
+.item3{
+    background-color: yellow;
+    border: 2px solid black;
+    grid-row-start: 3;
     grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.item4{
+    background-color: yellow;
+    border: 2px solid black;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item5{
+    background-color: yellow;
+    border: 2px solid black;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+
+.item6{
+    background-color: yellow;
+    border: 2px solid black;
+    grid-row-start: 7;
+    grid-row-end: 9;
     grid-column-start: 3;
+    grid-column-end: 7;
+}
+
+.item7{
+    background-color: yellow;
+    border: 2px solid black;
+    grid-row-start: 9;
+    grid-row-end: 11;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item8{
+    background-color: yellow;
+    border: 2px solid black;
+    grid-row-start: 10;
+    grid-row-end: 12;
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+
+.item9{
+    background-color: yellow;
+    border: 2px solid black;
+    grid-row-start: 11;
+    grid-row-end: 13;
+    grid-column-start: 2;
     grid-column-end: 5;
 }
 
+.item10{
+    background-color: yellow;
+    border: 2px solid black;
+    grid-row-start: 13;
+    grid-row-end: 15;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
 
-/* div{
+.item11{
+    background-color: yellow;
+    border: 2px solid black;
+    grid-row-start: 13;
+    grid-row-end: 16;
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+
+.item12{
+    background-color: yellow;
+    border: 2px solid black;
+    grid-row-start: 15;
+    grid-row-end: 17;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.item13{
+    background-color: yellow;
+    border: 2px solid black;
+    grid-row-start: 17;
+    grid-row-end: 19;
+    grid-column-start: 4;
+    grid-column-end: 7;
+}
+
+#poem-text{
+    display: none;
+    font-family: 'Fugue Head';
+    font-size: 16pt;
+    line-height: 28pt;
+    overflow: scroll;
+    text-transform: lowercase;
+}
+
+
+
+/* 
+div{
     border: 1px yellow solid;
 } */
