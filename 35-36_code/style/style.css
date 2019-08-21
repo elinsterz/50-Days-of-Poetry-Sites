@@ -15,7 +15,7 @@ body{
     font-family: 'Fugue Head';
     font-size: 4em;
     color: black;
-    margin: 0% 2%;
+    margin: 4% 4%;
     letter-spacing: 1px;
     line-height: 1.05em;
     position: relative;
@@ -27,6 +27,10 @@ body{
     z-index: -1;
 }
 
+#container{
+    margin: -1%;
+}
+
 .grid-container{
     display: grid;
     grid-template-columns: auto auto auto auto auto;
@@ -35,13 +39,12 @@ body{
     /* border: 1px solid purple; */
     background-color: transparent;
     position: relative;
-    margin-bottom: 10%;
 }
 
 .grid-container > div {
     vertical-align: middle;
     text-align: center;
-    padding: 5%;
+    padding: 2%;
     font-family: 'Fugue Head';
     color: black;
     letter-spacing: 1px;
@@ -49,6 +52,7 @@ body{
     font-size: 4em;
     overflow: scroll;
   }
+
   
 #item1 {
     background-color: yellow;
@@ -58,131 +62,184 @@ body{
     grid-column-start:1;
     grid-column-end: 3; 
     min-height: 400px;
-    min-width: 430px; 
+    min-width: 500px; 
     max-height: 400px;
-    max-width: 430px;
+    max-width: 500px;
 }
 
-.item2{
+#item2{
     background-color: yellow;
     border: 2px solid black;
     grid-row-start: 2;
     grid-row-end: 4;
     grid-column-start: 4;
     grid-column-end: 7;
+    min-height: 400px;
+    min-width: 500px; 
+    max-height: 400px;
+    max-width: 500px;
 }
 
-.item3{
+#item3{
     background-color: yellow;
     border: 2px solid black;
     grid-row-start: 3;
     grid-row-end: 5;
     grid-column-start: 2;
     grid-column-end: 4;
+    min-height: 400px;
+    min-width: 500px; 
+    max-height: 400px;
+    max-width: 500px;
 }
 
-.item4{
+#item4{
     background-color: yellow;
     border: 2px solid black;
     grid-row-start: 5;
     grid-row-end: 7;
     grid-column-start: 1;
     grid-column-end: 3;
+    min-height: 400px;
+    min-width: 500px; 
+    max-height: 400px;
+    max-width: 500px;
 }
 
-.item5{
+#item5{
     background-color: yellow;
     border: 2px solid black;
     grid-row-start: 5;
     grid-row-end: 7;
     grid-column-start: 4;
     grid-column-end: 6;
+    min-height: 400px;
+    min-width: 500px; 
+    max-height: 400px;
+    max-width: 500px;
 }
 
-.item6{
+#item6{
     background-color: yellow;
     border: 2px solid black;
     grid-row-start: 7;
     grid-row-end: 9;
     grid-column-start: 3;
     grid-column-end: 7;
+    min-height: 400px;
+    min-width: 500px; 
+    max-height: 400px;
+    max-width: 500px;
 }
 
-.item7{
+#item7{
     background-color: yellow;
     border: 2px solid black;
     grid-row-start: 9;
     grid-row-end: 11;
     grid-column-start: 1;
     grid-column-end: 3;
+    min-height: 400px;
+    min-width: 500px; 
+    max-height: 400px;
+    max-width: 500px;
 }
 
-.item8{
+#item8{
     background-color: yellow;
     border: 2px solid black;
-    grid-row-start: 10;
-    grid-row-end: 12;
-    grid-column-start: 5;
-    grid-column-end: 7;
+    grid-row-start: 9;
+    grid-row-end: 11;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    min-height: 400px;
+    min-width: 500px; 
+    max-height: 400px;
+    max-width: 500px;
 }
 
-.item9{
+#item9{
     background-color: yellow;
     border: 2px solid black;
     grid-row-start: 11;
     grid-row-end: 13;
     grid-column-start: 2;
     grid-column-end: 5;
+    min-height: 400px;
+    min-width: 500px; 
+    max-height: 400px;
+    max-width: 500px;
 }
 
-.item10{
+#item10{
     background-color: yellow;
     border: 2px solid black;
     grid-row-start: 13;
     grid-row-end: 15;
     grid-column-start: 1;
     grid-column-end: 3;
+    min-height: 400px;
+    min-width: 500px; 
+    max-height: 400px;
+    max-width: 500px;
 }
 
-.item11{
+#item11{
     background-color: yellow;
     border: 2px solid black;
     grid-row-start: 13;
     grid-row-end: 16;
-    grid-column-start: 5;
-    grid-column-end: 7;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    min-height: 400px;
+    min-width: 500px; 
+    max-height: 400px;
+    max-width: 500px;
 }
 
-.item12{
+#item12{
     background-color: yellow;
     border: 2px solid black;
     grid-row-start: 15;
     grid-row-end: 17;
     grid-column-start: 2;
     grid-column-end: 4;
+    min-height: 400px;
+    min-width: 500px; 
+    max-height: 400px;
+    max-width: 500px;
 }
 
-.item13{
+#item13{
     background-color: yellow;
     border: 2px solid black;
     grid-row-start: 17;
     grid-row-end: 19;
     grid-column-start: 4;
     grid-column-end: 7;
+    min-height: 400px;
+    min-width: 500px; 
+    max-height: 400px;
+    max-width: 500px;
 }
 
-#poem-text{
+#item1:hover, #item1:active, #item2:hover, #item2:active, #item3:hover, #item3:active, #item4:hover, #item4:active, #item5:hover, #item5:active, #item6:hover, #item6:active, #item7:hover, #item7:active, #item8:hover, #item8:active, #item9:hover, #item9:active, #item10:hover, #item10:active, #item11:hover, #item11:active, #item12:hover, #item12:active, #item13:hover, #item13:active{
+    cursor:pointer;
+    box-shadow: 15px 15px black;
+}
+
+#poem1, #poem2, #poem3, #poem4, #poem5, #poem6, #poem7, #poem8, #poem9, #poem10, #poem11, #poem12, #poem13 {
     display: none;
     font-family: 'Fugue Head';
-    font-size: 16pt;
-    line-height: 28pt;
+    font-size: 12pt;
+    line-height: 24pt;
     overflow: scroll;
     text-transform: lowercase;
 }
 
 
 
-/* 
-div{
+
+/* div{
     border: 1px yellow solid;
 } */
