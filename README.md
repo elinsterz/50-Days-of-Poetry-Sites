@@ -1,9 +1,9 @@
-# 100 Days of Poetry Sites
+# 50 Days of Poetry Sites
 Summer 2019
 
-For the next 100 days I will be creating microsites using JavaScript, HTML and CSS. The content for each site are taken from a poem or short story. The first day will be selecting the text, designing the static page using HTML and CSS. The second day will be adding interactivity using Javascript. 
+For summer I will be creating microsites using JavaScript, HTML and CSS. The content for each site are taken from a poem or short story. The first day will be selecting the text, designing the static page using HTML and CSS. The second day will be adding interactivity using Javascript. 
 
-Note: the sites will not be mobile-friendly. Designing and developing for desktop only. 
+Note: the sites will not be mobile-friendly. Designing and developing for desktop only. This series was also altered from 100 to 50 days. 
 
 ----
 
@@ -59,3 +59,6 @@ Day 33-34 (08/11/19 - 08/17/19): https://emilylin-itp.github.io/100-Days-of-Poet
 <br>
 <br>
 Day 35-36 (08/18/19 - 08/20/19): https://emilylin-itp.github.io/100-Days-of-Poetry-Sites/35-36_code/
+<br>
+<br>
+Day 37-38 (08/21/19 - 08/27/19): https://emilylin-itp.github.io/100-Days-of-Poetry-Sites/37-38_code/
