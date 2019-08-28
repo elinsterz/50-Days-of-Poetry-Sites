@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>sometimes i think my body leaves a shape in the air</title>
+
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style/style.css">
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+        integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+        integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+
+    <!--p5js script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
+</head>
+
+<body>
+    <div id='sketch-holder'>
+        <!--js script-->
+        <script id='sketch' src="wave.js"></script>
+    </div>
+
+    <div id='crosshairs-top' class='row justify-content-center'>
+        <div id="crosshairs-left" class='col-3'>
+            <img src="assets/crosshairs-top-left.svg"  alt="crosshairs-top-left">
+        </div>
+
+        <div id="blank" class='col-6'>
+        </div>
+
+        <div id="crosshairs-right" class='col-3'>
+            <img src="assets/crosshairs-top-right.svg"  alt="crosshairs-top-right">
+        </div>
+    </div>
+
+    <div id='poem-page' class='container'>
+
+        <div id='poem-div' class='row justify-content center'>
+
+            <div id='title' class='col-12 col-lg-12 col-md-12'>
+                <a href="index.html">sometimes i think my body<br>leaves a shape in the air</a>
+            </div>
+
+
+            <!--poem-->
+            <div id='poem-text' class='col-12 col-lg-12 col-md-12'>
+                <p>I slipped my hands in the cold salt froth<br>
+                    of the Pacific Ocean just two days ago. Planet-like<br>
+                    and everything aquatic, even the sky, where an eagle<br>
+                    unfolded so much larger than my shadow.<br>
+                    I was struck translucent. A good look for me!<br>
+                    My hands were slick with the water I was born next to,<br>
+                    and there was a whole hour that I felt lived in, like a room.<br>
+                    I wish to be untethered and tethered all at once, my skin<br>
+                    singes the sheets and there’s a tremor in the marrow.<br>
+                    On the way back to the city, a sign read:<br>
+                    Boneless, Heartless, Binge-Worthy.<br>
+                    Next to it was a fuzzy photograph of a jellyfish.<br>
+                    Imagine the body free of its anchors,<br>
+                    the free-swimming,<br>
+                    a locomotion propelling us, pulse by pulse,<br>
+                    but here I am: the slow caboose of clumsy effort.<br>
+                    When the magician’s wife died, how could they be sure<br>
+                    he hadn’t just turned her into ether, released her<br>
+                    like a white bird begging for the sky outside the cage?<br>
+                    Creeley says, The plan is the body. What if he’s wrong?<br>
+                    <br>
+                    I am always in too many worlds, sand sifting through my hands,<br>
+                    another me speeding through the air, another me waving<br>
+                    from a train window watching you<br>
+                    waving from a train window watching me.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id='crosshairs-bottom' class='row justify-content-center'>
+            <div id="crosshairs-left" class='col-3'>
+                <img src="assets/crosshairs-bottom-left.svg"  alt="crosshairs-bottom-left">
+            </div>
+    
+            <div id="blank" class='col-6'>
+            </div>
+    
+            <div id="crosshairs-right" class='col-3'>
+                <img src="assets/crosshairs-bottom-right.svg"  alt="crosshairs-bottom-right">
+            </div>
+        </div>
+</body>

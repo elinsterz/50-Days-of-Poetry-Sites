@@ -8,13 +8,13 @@ Edited by: Emily Lin
 // center point
 let centerX = 0.0, centerY = 0.0;
 
-let radius = 400, rotAngle = -90;
+let radius = 70, rotAngle = -90;
 let accelX = 0.0, accelY = 0.0;
 let deltaX = 0.0, deltaY = 0.0;
 let springing = 0.0005, damping = 0.98;
 
 //corner nodes
-let nodes =30;
+let nodes = 30;
 
 //zero fill arrays
 let nodeStartX = [];
@@ -23,6 +23,10 @@ let nodeX = [];
 let nodeY = [];
 let angle = [];
 let frequency = [];
+
+
+let yoff = 0.0; 
+
 
 // soft-body dynamics
 let organicConstant = 1.0;
@@ -65,10 +69,42 @@ function windowResized() {
 
 function draw() {
     //fade background
-    fill(232,240,237, 100);
+    fill(232, 240, 237, 100);
     rect(0, 0, width, height);
     drawShape();
     moveShape();
+    drawWave();
+    
+}
+
+function drawWave() {
+    fill(255);
+    // We are going to draw a polygon out of the wave points
+    beginShape();
+
+    let xoff = 0; // Option #1: 2D Noise
+    // let xoff = yoff; // Option #2: 1D Noise
+
+    // Iterate over horizontal pixels
+    for (let x = 0; x <= width+500; x += 70) {
+        // Calculate a y value according to noise, map to
+
+        // Option #1: 2D Noise
+        let y = map(noise(xoff, yoff), 0, 1, windowHeight-300,windowHeight-200);
+
+        // Option #2: 1D Noise
+        // let y = map(noise(xoff), 0, 1, 200,300);
+
+        // Set the vertex
+        vertex(x, y);
+        // Increment x dimension for noise
+        xoff += 0.15;
+    }
+    // increment y dimension for noise
+    yoff += 0.01;
+    vertex(width, height);
+    vertex(0, height);
+    endShape(CLOSE);
 }
 
 function drawShape() {

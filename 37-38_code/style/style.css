@@ -23,6 +23,7 @@ body{
     text-align: center;
     margin-bottom: 5%;
     margin-top: 5%;
+    color: black;
 }
 
 #t-text{
@@ -33,12 +34,18 @@ body{
     text-align:center;
 }
 
-#title-text{
+#title-div{
     font-family: 'AtlasTypewriter-Regular';
     text-transform: uppercase;
-    font-size: 0.75em;
+    font-size: 0.85em;
     letter-spacing: 0.25pt;
+    line-height: 1.5em;
     text-align: center;
+    color: black;
+}
+
+#poem-title > a{
+    color: black;
 }
 
 #horizontal-line > img{
@@ -54,6 +61,53 @@ body{
     margin-top: 2%;
 }
 
+/* poem.html style */
+
+#poem-div{
+    font-family: 'AtlasTypewriter-Regular';
+    font-size: 0.85em;
+    line-height: 2em;
+    letter-spacing: 0.25pt;
+    text-align: left;
+    margin-bottom: 15%;
+    margin-top: 5%;
+    color: black;
+    margin: auto;
+    width: 60%;
+}
+
+#title{
+    text-transform: uppercase;
+    margin-top: 15%;
+}
+
+#title > a{
+    color: black;
+}
+
+#poem-text{
+    padding: 2%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+#crosshairs-left{
+    text-align: right;
+    margin-top: 5%;
+}
+
+#crosshairs-right{
+    text-align: left;
+    margin-top: 5%;
+}
+
+#crosshairs-left>img, #crosshairs-right>img{
+    width: 15%;
+}
+
+#crosshairs-bottom{
+    margin-bottom: 10%;
+}
 
 div{
     border: 0.1px solid rgba(0,0,0,0);
