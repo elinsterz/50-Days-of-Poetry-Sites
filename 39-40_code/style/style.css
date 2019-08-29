@@ -1,0 +1,30 @@
+@font-face {
+    font-family:'Calibre-Bold';
+    src: url('fonts/Calibre-Bold.eot');
+    src: url('fonts/Calibre-Bold.ttf');
+    format('truetype');
+}
+
+#sketch-holder{
+    position:fixed;
+    z-index: 2;
+}
+
+body{
+    background-color: rgba(253, 98, 167)  !important;
+}
+
+#title-div{
+    color: white;
+    font-family: 'Calibre-Bold';
+    font-size: 8em;
+    line-height: 0.85em;
+    letter-spacing: 0.015pt;
+    text-align: center;
+    z-index: 1;
+}
+
+
+div{
+    border: blueviolet 1px solid;
+}
