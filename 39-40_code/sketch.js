@@ -32,9 +32,14 @@ function windowResized() {
 function draw() {
   background(253, 98, 167,75) //hex #FD62A7
 
-  writeTitle('Open Gesture', windowWidth/2, windowHeight/2);
-  writeTitle('of an I', windowWidth/2, windowHeight/2+120);
+  //write title
+  writeTitle('Open Gesture', 120, windowWidth/2, windowHeight/2 - 120);
+  writeTitle('of an I', 120, windowWidth/2, windowHeight/2);
 
+  //write author
+  writeTitle('By D. A. Powell', 24,  windowWidth/2, windowHeight/2 + 175);
+
+  //loop through array of falling text
   for (let i = 0; i < textArr.length - 1; i++) {
     textSize(60);
     fill(20);
@@ -44,9 +49,9 @@ function draw() {
   }
 }
 
-function writeTitle(title, x, y) {
+function writeTitle(title, fontSize, x, y,) {
   textFont(typeface);
-  textSize(160);
+  textSize(fontSize);
   fill(255);
   textAlign(CENTER);
   //translate(windowWidth/2, windowHeight/2);

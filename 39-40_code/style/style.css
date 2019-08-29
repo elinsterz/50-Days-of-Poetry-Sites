@@ -6,25 +6,43 @@
 }
 
 #sketch-holder{
-    position:fixed;
-    z-index: 2;
+    z-index: -1;
+    overflow: hidden;
+    /* The following styles are required for the "scroll-over" effect */
+    width: 100%;
+    height: 95%;
+    top: 0;
+    left: 0;
+    position: fixed !important;
 }
 
 body{
-    background-color: rgba(253, 98, 167)  !important;
+    background-color: black;
 }
 
-#title-div{
+#content-wrapper {
+    /* These styles are required for the "scroll-over" effect */
+    position: absolute;
+    top: 95%;
+    width: 110%;
+    min-height: 12%;
+    z-index: 2;
+    background-color: black;
+}
+
+
+#poem-div{
     color: white;
     font-family: 'Calibre-Bold';
-    font-size: 8em;
-    line-height: 0.85em;
-    letter-spacing: 0.015pt;
+    font-size: 1.5em;
+    line-height: 1.52em;
+    letter-spacing: 1pt;
     text-align: center;
-    z-index: 1;
+    background-color: black;
+    padding: 15%;
 }
 
-
+/* 
 div{
     border: blueviolet 1px solid;
-}
+} */
