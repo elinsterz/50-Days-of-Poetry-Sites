@@ -61,4 +61,7 @@ Day 33-34 (08/11/19 - 08/17/19): https://emilylin-itp.github.io/50-Days-of-Poetr
 Day 35-36 (08/18/19 - 08/20/19): https://emilylin-itp.github.io/50-Days-of-Poetry-Sites/35-36_code/
 <br>
 <br>
-Day 37-38 (08/21/19 - 08/27/19): https://emilylin-itp.github.io/50-Days-of-Poetry-Sites/37-38_code/
+Day 37-38 (08/21/19 - 08/26/19): https://emilylin-itp.github.io/50-Days-of-Poetry-Sites/37-38_code/
+<br>
+<br>
+Day 39-40 (08/27/19 - 08/28/19): https://emilylin-itp.github.io/50-Days-of-Poetry-Sites/39-40_code/
