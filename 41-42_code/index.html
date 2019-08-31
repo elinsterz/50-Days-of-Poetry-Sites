@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Kindness of Others</title>
+
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style/style.css">
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+        integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+        integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+
+    <!--p5js script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
+
+    <!--jquery-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <!--p5js-->
+    <div id='sketch-holder'>
+        <script id='sketch' src='sketch.js'></script>
+    </div>
+
+    <!--main js-->
+    <script id='main-js' src='main.js'></script>
+
+    <div>
+        <button id='hamburger' onclick='poem_open()'><img src="style/assets/scribble.svg" alt="hamburger"></button>
+    </div>
+
+    <div id='poem-container' onmouseup = 'random_text_color()'>
+        <div>
+            <button id="close" onclick='poem_close()'><img src="style/assets/x.svg" alt="x close"></button>
+        </div>
+
+        <p id='poem-title'>The Kindness of Others<br>
+            by Cathy Song</p>
+        <p id='poem-text'>
+            The kindness of others<br>
+            is all they ever wanted,<br>
+            the laughter of neighbors<br>
+            prospering in the blue light of summer.<br>
+            <br>
+            Those of the small sputtering flame<br>
+            and the sudden white sprung hair,<br>
+            who feed off envy and grow old quickly,<br>
+            desire largesse.<br>
+            <br>
+            The role of poor relation<br>
+            evokes a lack<br>
+            they are not apt to admit,<br>
+            or unbearable pity.<br>
+            <br>
+            They prefer to penetrate the giver’s<br>
+            effortless knack of giving<br>
+            they perceive as vitality,<br>
+            a pulsating entity<br>
+            <br>
+            that rewards the kindness of others<br>
+            tenfold.<br>
+            This they have witnessed.<br>
+            This they have tabulated relentlessly.<br>
+            <br>
+            The generosity of others<br>
+            whose spirits, like their long-legged<br>
+            children blossoming into a progeny<br>
+            of orchards and fields, flourish.<br>
+            <br>
+            Those who have never known kindness<br>
+            drag into the privacy of their smallness<br>
+            the baskets of fruit<br>
+            appearing year after year on their porches,<br>
+            <br>
+            to be picked apart<br>
+            in the hushed posture of thieves.<br>
+            They peel skin, probe flesh<br>
+            the color of honey<br>
+            <br>
+            as if the seeds will yield something<br>
+            other than a glimmer of sweet air<br>
+            rising from the roots of trees<br>
+            and licorice-laced, half-opened leaves.<br>
+            <br>
+            Those of the small flame,<br>
+            who feed off envy and grow old quickly,<br>
+            live out their lives<br>
+            hungry,<br>
+            <br>
+            glaring at themselves across the table,<br>
+            wife of the cruel mouth,<br>
+            husband of the thin broth<br>
+            trickling like spittle.<br>
+        </p>
+    </div>
+
+</body>

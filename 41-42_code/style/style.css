@@ -1,0 +1,96 @@
+@font-face {
+    font-family:'CanelaText-Regular';
+    src: url('fonts/CanelaText-Regular.eot');
+    src: url('fonts/CanelaText-Regular.ttf');
+    format('truetype');
+}
+
+@font-face {
+    font-family:'basis-grotesque-off-white-pro';
+    src: url('fonts/basis-grotesque-off-white-pro.eot');
+    src: url('fonts/basis-grotesque-off-white-pro.ttf');
+    format('truetype');
+}
+
+#sketch-holder{
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    left:0;
+    position: fixed!important;
+}
+
+
+#hamburger{
+    background-color: rgba(255,255,255,0);
+    z-index: 1;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 2%;
+}
+
+#hamburger:hover{
+    border: none;
+    outline:none;
+    cursor: pointer;
+}
+
+#hamburger:active{
+    outline: none;
+    border: none;
+}
+
+#close{
+    background-color: rgba(255,255,255,0);
+    z-index: 3;
+    border: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-top: 2%;
+    padding-right: 2%;
+}
+
+#close:hover{
+    border: none;
+    outline:none;
+    cursor: pointer;
+}
+
+#close:active{
+    outline: none;
+    border: none;
+}
+
+
+#poem-container{
+    display: none;
+    z-index: 4;
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    top: 0;
+    right: 0;
+    float: right;
+    /* border: 1px solid blue; */
+    position: absolute;
+    padding: 5%;
+    overflow: scroll;
+}
+
+#poem-title{
+    font-family: 'canelatext-regular';
+    font-size: 1.25em;
+    line-height: 1.5em;
+    text-align: center;
+    margin: 50px;
+}
+
+#poem-text{
+    font-family: 'basis-grotesque-off-white-pro';
+    font-size: 1em;
+    line-height: 2em;
+    text-align: center;
+}
