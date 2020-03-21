@@ -1,4 +1,4 @@
-# 50 Days of Poetry Sites
+# 40 Days of Poetry Sites
 Summer 2019
 
 For summer I will be creating microsites using JavaScript, HTML and CSS. The content for each site are taken from a poem or short story. The first day will be selecting the text, designing the static page using HTML and CSS. The second day will be adding interactivity using Javascript. 
